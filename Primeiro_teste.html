@@ -1,0 +1,78 @@
+<meta charset="UTF-8">
+<h1>Meu primeiro teste!</h1>
+<br>
+Seria isso um programa? Descubra visitando o Alura <a href="http://www.alura.com.br">aqui</a>
+
+<script>
+    alert("Isso sim é um programa");
+</script>
+<br>
+<br>
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+document.write("<br><br><br>");
+var puloLinha = "<br>";
+var tanque = 40;
+
+var caminhoComGasolina = 480;
+var consumoDeGasolina = caminhoComGasolina/tanque;
+
+var caminhoComAlcool = 300;
+var consumoDeAlcool = caminhoComAlcool/tanque;
+
+document.write("O consumo de Gasolina é " + consumoDeGasolina + " km/L");
+document.write(puloLinha);
+document.write("<br>");
+
+document.write("O consumo de Álcool é " + consumoDeAlcool + " km/L");
+
+</script>
+
+<br>
+<br>
+
+<script>
+
+
+// primeira função//
+    function pulaLinha() {
+        alert("oi");
+        document.write("<br>");
+        document.write("<br>");
+
+}
+// aqui temos uma função dentro da outra.
+function mostra(parametro){
+    document.write(parametro);
+    pulaLinha();
+}
+
+// control + k +c depois de selecionadas comentam todas.
+//  var ano = 2016;
+
+// mostra("Flávio tem " + (ano - 1977) + " anos");
+
+// pulaLinha();
+
+// mostra("Joaquim tem " + (ano - 1996) + " anos");
+
+// pulaLinha();
+//control + k + u descomenta.
+
+ano = 2017;
+//document.write("Barney tem " + (ano - 1976) + " anos");
+mostra("Barney tem " + (ano - 1976) + " anos");
+
+mostra("Olá pessoal!");
+
+ var ano = 2016;
+
+mostra("Flávio tem " + (ano - 1977) + " anos");
+mostra("Joaquim tem " + (ano - 1996) + " anos");
+ano = 2017;
+//document.write("Barney tem " + (ano - 1976) + " anos");
+mostra("Barney tem " + (ano - 1976) + " anos");
+
+mostra("Olá pessoal!");
+</script>
